@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
             content: `Nouvelle inscription - Pseudo: ${pseudo}, Email: ${email}`
         };
 
-        fetch("https://discord.com/api/webhooks/1150048702333997056/mh1n1zE3iGKeY9NstkkVrMFSfm6jC69Q9Lau1C_4kNs0djT5lEpinQxDew-Ce8QRkjcw", {
+        fetch("https://discord.com/api/webhooks/1150092405459128441/dM6qoImmx4V6X7vWp_W6Sk2rnUFRQ0BpTZaGT2ZdMk9r4M9iI4rhQ5MroyH8sczJrOr6", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
