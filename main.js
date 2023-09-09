@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => {
             if (response.ok) {
                 // Redirection de l'utilisateur après un envoi réussi
-                window.location.href = "https://discord.gg/nr9EzyFu";
+                window.location.href = "https://discord.gg/SWZWFy4Sem";
             } else {
                 // Gestion des erreurs en cas d'échec de l'envoi
                 console.error("Erreur lors de l'envoi au webhook Discord.");
