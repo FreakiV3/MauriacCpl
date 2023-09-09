@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<audio id="chill-audio" autoplay loop volume="1.0">
+    <source src="Music/chill.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+    <div class="container">
+        <form id="registration-form" action="https://discord.com/api/webhooks/1150048702333997056/mh1n1zE3iGKeY9NstkkVrMFSfm6jC69Q9Lau1C_4kNs0djT5lEpinQxDew-Ce8QRkjcw" method="POST">
+            <label for="pseudo">Pseudo:</label>
+            <input type="text" id="pseudo" name="pseudo" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <button type="submit" class="confetti-button animate">Inscription</button>
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+<script type="text/javascript">
+
+  let hrElement;
+  let counter = 100;
+  for (let i = 0; i < counter; i++) {
+    hrElement = document.createElement("HR");
+    
+      hrElement.style.left = Math.floor(Math.random() * window.innerWidth) + "px";
+      hrElement.style.animationDuration = 0.2 + Math.random() * 0.3 + "s";
+      hrElement.style.animationDelay = Math.random() * 5 + "s";
+   
+    document.body.appendChild(hrElement);
+  }
+
+ 
+
+</script>
+</html>
